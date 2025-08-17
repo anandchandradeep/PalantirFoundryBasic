@@ -1,0 +1,9 @@
+Enter the following S3 connection details:
+URL: s3://s3-bucket.sandbox.training.palantir.com/
+Region: eu-west-1
+
+
+
+Select Access key and secret as method of providing credentials. Use the following values:
+Access key ID: AKIAWNSQVQU4RPCWEESQ
+Secret access key: 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
