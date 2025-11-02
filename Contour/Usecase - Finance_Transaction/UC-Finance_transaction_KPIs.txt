@@ -1,0 +1,24 @@
+5 Key Financial KPIs to Calculate:
+
+
+1. Average Transaction Value (ATV)
+→ SUM(amount) / COUNT(transaction_id)
+Helps track average spend per transaction.
+Example use: Identify changes in spending patterns.
+
+2. Customer Lifetime Value (CLV)
+→ SUM(amount) per customer_id (for Debit transactions)
+Estimate total spending per customer across time.
+Use in Foundry: Build ontology linking customer → transactions.
+
+3. Monthly Transaction Growth Rate
+→ (Transactions_this_month - Transactions_last_month) / Transactions_last_month * 100
+Use: Monitor platform usage or revenue growth.
+
+4. Expense-to-Income Ratio
+→ SUM(Debit Amount) / SUM(Credit Amount)
+Use: Track financial health or balance sheet sustainability.
+
+5. Regional Transaction Distribution
+→ SUM(amount) GROUP BY region
+Use: Compare financial activity across regions via Foundry dashboards.
